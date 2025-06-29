@@ -1,0 +1,203 @@
+[
+    {
+      "_id": 1,
+      "title": "Oblivion",
+      "description": "A court martial sends a veteran soldier to a distant planet, where he has to destroy the remains of an alien race.",
+      "category": "fiction",
+      "trending": true,
+      "coverImage": "movie-1.png",
+      "oldPrice": 39.99,
+      "newPrice": 29.99
+    },
+    {
+      "_id": 2,
+      "title": "Life of Pi",
+      "description": "A young man who survives a disaster at sea is hurtled into an epic journey of adventure and discovery. While cast away, he forms an unexpected connection with another survivor: a fearsome Bengal tiger.",
+      "category": "adventure",
+      "trending": true,
+      "coverImage": "movie-2.png",
+      "oldPrice": 29.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 3,
+      "title": "John Wick",
+      "description": "John Wick is a former hitman grieving the loss of his true love. When his home is broken into, robbed, and his dog killed, he is forced to return to action to exact revenge.",
+      "category": "action",
+      "trending": true,
+      "coverImage": "movie-3.png",
+      "oldPrice": 39.99,
+      "newPrice": 29.99
+    },
+    {
+      "_id": 4,
+      "title": "The Dark Knight Rises",
+      "description": "Bane, an imposing terrorist, attacks Gotham City and disrupts its eight-year-long period of peace. This forces Bruce Wayne to come out of hiding and don the cape and cowl of Batman again.",
+      "category": "action",
+      "trending": false,
+      "coverImage": "movie-4.png",
+      "oldPrice": 49.99,
+      "newPrice": 39.99
+    },
+    {
+      "_id": 5,
+      "title": "In the Heart of the Sea",
+      "description": "A recounting of a New England whaling ship's sinking by a giant whale in 1820, an experience that later inspired the great novel Moby-Dick.",
+      "category": "adventure",
+      "trending": true,
+      "coverImage": "movie-5.png",
+      "oldPrice": 29.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 6,
+      "title": "Top Gun: Maverick",
+      "description": "The story involves Maverick confronting his past while training a group of younger Top Gun graduates, including the son of his deceased best friend, for a dangerous mission.",
+      "category": "action",
+      "trending": false,
+      "coverImage": "movie-6.png",
+      "oldPrice": 44.99,
+      "newPrice": 34.99
+    },
+    {
+      "_id": 7,
+      "title": "The Witch",
+      "description": "An isolated Puritan family in 1630s New England comes unraveled by the forces of witchcraft and possession.",
+      "category": "horror",
+      "trending": true,
+      "coverImage": "movie-7.png",
+      "oldPrice": 49.99,
+      "newPrice": 39.99
+    },
+    {
+      "_id": 8,
+      "title": "Arrival",
+      "description": "Linguist Louise Banks leads a team of investigators when gigantic spaceships touch down around the world.",
+      "category": "fiction",
+      "trending": false,
+      "coverImage": "movie-8.png",
+      "oldPrice": 31.99,
+      "newPrice": 26.99
+    },
+    {
+      "_id": 9,
+      "title": "Journey to the Center of the Earth",
+      "description": "On a quest to find out what happened to his missing brother, a scientist, his nephew and their mountain guide discover a fantastic and dangerous lost world in the center of the earth.",
+      "category": "adventure",
+      "trending": false,
+      "coverImage": "movie-9.png",
+      "oldPrice": 27.99,
+      "newPrice": 18.99
+    },
+    {
+      "_id": 10,
+      "title": "Jumanji: Welcome to the Jungle",
+      "description": "Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.",
+      "category": "adventure",
+      "trending": true,
+      "coverImage": "movie-10.png",
+      "oldPrice": 24.99,
+      "newPrice": 20.99
+    },
+    {
+      "_id": 11,
+      "title": "The Martian",
+      "description": "An astronaut becomes stranded on Mars after his team assumes him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive and can survive until a potential rescue.",
+      "category": "fiction",
+      "trending": true,
+      "coverImage": "movie-11.png",
+      "oldPrice": 32.99,
+      "newPrice": 25.99
+    },
+    {
+      "_id": 12,
+      "title": "Extraction",
+      "description": "Tyler Rake, a fearless black market mercenary, embarks on the most deadly extraction of his career when he's enlisted to rescue the kidnapped son of an imprisoned international crime lord.",
+      "category": "action",
+      "trending": true,
+      "coverImage": "movie-12.png",
+      "oldPrice": 34.99,
+      "newPrice": 29.99
+    },
+    {
+      "_id": 13,
+      "title": "The Conjuring",
+      "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+      "category": "horror",
+      "trending": true,
+      "coverImage": "movie-13.png",
+      "oldPrice": 26.99,
+      "newPrice": 21.99
+    },
+    {
+      "_id": 14,
+      "title": "Blade Runner 2049",
+      "description": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+      "category": "fiction",
+      "trending": false,
+      "coverImage": "movie-14.png",
+      "oldPrice": 34.99,
+      "newPrice": 24.99
+    },
+    {
+      "_id": 15,
+      "title": "The Ritual",
+      "description": "A group of old college friends reunite for a trip to a most dangerous country in Europe - Sweden, encountering a menacing presence there stalking them.",
+      "category": "horror",
+      "trending": false,
+      "coverImage": "movie-15.png",
+      "oldPrice": 27.99,
+      "newPrice": 22.99
+    },
+    {
+      "_id": 16,
+      "title": "Inception",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "category": "fiction",
+      "trending": true,
+      "coverImage": "movie-16.png",
+      "oldPrice": 24.99,
+      "newPrice": 19.99
+    },
+    {
+      "_id": 17,
+      "title": "The Hobbit: An Unexpected Journey",
+      "description": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home and the gold within it from the dragon Smaug.",
+      "category": "adventure",
+      "trending": false,
+      "coverImage": "movie-17.png",
+      "oldPrice": 39.99,
+      "newPrice": 29.99
+    },
+    {
+      "_id": 18,
+      "title": "Tenet",
+      "description": "Armed with only the word 'Tenet', and fighting for the survival of the entire world, CIA operative, The Protagonist, journeys through a twilight world of international espionage on a global mission that unfolds beyond real time.",
+      "category": "action",
+      "trending": true,
+      "coverImage": "movie-18.png",
+      "oldPrice": 28.99,
+      "newPrice": 22.99
+    },
+    {
+      "_id": 19,
+      "title": "The Lion King",
+      "description": "After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.",
+      "category": "adventure",
+      "trending": true,
+      "coverImage": "movie-19.png",
+      "oldPrice": 35.99,
+      "newPrice": 27.99
+    },
+    {
+      "_id": 20,
+      "title": "Mission: Impossible - Dead Reckoning",
+      "description": "Ethan Hunt and his IMF team must track down a dangerous weapon before it falls into the wrong hands.",
+      "category": "action",
+      "trending": true,
+      "coverImage": "movie-20.png",
+      "oldPrice": 24.99,
+      "newPrice": 19.99
+    }
+  ]
+  
