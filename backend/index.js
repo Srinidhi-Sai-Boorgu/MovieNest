@@ -1,15 +1,17 @@
-const express = require('express')
-const app = express();
-const cors = require('cors');
-const mongoose = require('mongoose');
 require('dotenv').config();
+const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
 
-const port = process.env.PORT || 5000;
+const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:5173',
-    credentials: true,
+    origin: [
+        'http://localhost:5173',
+        'https://movienest-six.vercel.app'
+    ],
+    credentials: true
 }));
 
 const movieRoutes = require('./src/movies/movie.route');
@@ -22,15 +24,18 @@ app.use("/api/orders", orderRoutes)
 app.use("/api/auth", userRoutes)
 app.use("/api/admin", adminRoutes)
 
-async function main() {
-    await mongoose.connect(process.env.DB_URL);
-    app.use('/', (req, res) => {
-        res.send('MovieNest server is running!');
-    })
+app.get('/', (req, res) => res.send('MovieNest server is running!'));
+
+mongoose
+    .connect(process.env.DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+    .then(() => console.log('MongoDB connected'))
+    .catch(err => console.error('MongoDB connection error:', err));
+
+module.exports = app;
+
+if (require.main === module) {
+    const port = process.env.PORT || 5000;
+    app.listen(port, () => {
+        console.log(`Local server listening on http://localhost:${port}`);
+    });
 }
-
-main().then(() => console.log("MongoDB connected successfully!")).catch(err => console.log(err));
-
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-});
